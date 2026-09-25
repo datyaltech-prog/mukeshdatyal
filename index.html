@@ -5,26 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mukesh Datyal — Android Developer &amp; Product Builder</title>
   <meta name="description" content="Mukesh Datyal is an Android developer and independent product builder from Himachal Pradesh, India, creating practical mobile applications and digital tools through DatyalTech.">
-  <meta name="keywords" content="Mukesh Datyal, Android Developer, Android Developer Himachal Pradesh, DatyalTech, Mobile App Developer, Android Apps, Product Builder">
+  <meta name="keywords" content="Mukesh Datyal, Android Developer, DatyalTech, Mobile App Developer, Financial Calculators India, Offline Tools, Kotlin, Flutter, Product Builder">
   <meta name="author" content="Mukesh Datyal">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://mukeshdatyal.github.io/">
 
-  <!-- Open Graph / Facebook -->
+  <!-- Open Graph / Meta -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://mukeshdatyal.github.io/">
   <meta property="og:title" content="Mukesh Datyal — Android Developer &amp; Product Builder">
-  <meta property="og:description" content="Android developer and independent product builder from Himachal Pradesh, India. Practical mobile applications and digital tools published under DatyalTech.">
+  <meta property="og:description" content="Android developer and independent product builder from Himachal Pradesh, India. Practical mobile applications and digital products published under DatyalTech.">
   <meta property="og:image" content="assets/og-image.png">
 
   <!-- Twitter / X -->
   <meta property="twitter:card" content="summary_large_image">
   <meta property="twitter:url" content="https://mukeshdatyal.github.io/">
   <meta property="twitter:title" content="Mukesh Datyal — Android Developer &amp; Product Builder">
-  <meta property="twitter:description" content="Android developer and independent product builder from Himachal Pradesh, India. Practical mobile applications and digital tools published under DatyalTech.">
+  <meta property="twitter:description" content="Android developer and independent product builder from Himachal Pradesh, India. Practical mobile applications and digital products published under DatyalTech.">
   <meta property="twitter:image" content="assets/og-image.png">
 
-  <!-- Favicon (Geometric Minimal Monogram) -->
+  <!-- Minimal Monogram Favicon -->
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%2308090D'/><rect x='1' y='1' width='30' height='30' rx='5' fill='none' stroke='rgba(255,255,255,0.1)'/><path d='M9 23V9L16 16.5L23 9V23' fill='none' stroke='%236D7CFF' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'/></svg>">
 
   <!-- Inter Font -->
@@ -81,18 +81,15 @@
       background-size: 100% 100%, 36px 36px, 36px 36px;
     }
 
-    /* Subtle Glassmorphism restricted to header only */
     .header-blur {
       backdrop-filter: blur(12px);
       -webkit-backdrop-filter: blur(12px);
     }
 
-    /* Device frame highlight */
     .android-frame {
       box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.7), 0 0 0 1px rgba(255, 255, 255, 0.08);
     }
 
-    /* Controlled hover motion */
     @media (hover: hover) and (pointer: fine) {
       .work-card-hover {
         transition: transform 260ms cubic-bezier(0.16, 1, 0.3, 1), 
@@ -109,7 +106,6 @@
       }
     }
 
-    /* Accessibility: Reduced Motion */
     @media (prefers-reduced-motion: reduce) {
       *, ::before, ::after {
         animation-duration: 0.01ms !important;
@@ -133,8 +129,12 @@
     },
     "url": "https://mukeshdatyal.github.io",
     "sameAs": [
+      "https://play.google.com/store/apps/dev?id=5198842058528925619&hl=en",
       "https://github.com/MukeshDatyal",
-      "https://play.google.com/store/apps/developer?id=DatyalTech"
+      "https://facebook.com/datyaltech",
+      "https://instagram.com/datyaltech",
+      "https://x.com/datyaltech",
+      "https://www.reddit.com/r/DatyalTech/"
     ],
     "address": {
       "@type": "PostalAddress",
@@ -161,20 +161,25 @@
       </a>
 
       <!-- Desktop Navigation links -->
-      <nav class="hidden md:flex items-center gap-7 text-xs font-medium text-secondary">
+      <nav class="hidden md:flex items-center gap-6 text-xs font-medium text-secondary">
         <a href="#work" class="hover:text-primary transition-colors">Work</a>
+        <a href="#catalog" class="hover:text-primary transition-colors">All Apps</a>
         <a href="#datyaltech" class="hover:text-primary transition-colors">DatyalTech</a>
         <a href="#about" class="hover:text-primary transition-colors">About</a>
         <a href="#experience" class="hover:text-primary transition-colors">Experience</a>
-        <a href="#stack" class="hover:text-primary transition-colors">Stack</a>
+        <a href="#social" class="hover:text-primary transition-colors">Social</a>
         <a href="#contact" class="hover:text-primary transition-colors">Contact</a>
       </nav>
 
       <!-- Right Action & Mobile Toggle -->
-      <div class="flex items-center gap-3">
-        <a href="https://github.com/MukeshDatyal" target="_blank" rel="noopener noreferrer" class="hidden sm:inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium text-primary bg-surface border border-borderline hover:border-borderline-hover rounded-md transition-colors">
+      <div class="flex items-center gap-2.5">
+        <a href="https://play.google.com/store/apps/dev?id=5198842058528925619&hl=en" target="_blank" rel="noopener noreferrer" class="hidden sm:inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium text-primary bg-surface border border-borderline hover:border-borderline-hover rounded-md transition-colors" title="Google Play Developer Profile">
+          <svg class="w-3.5 h-3.5 text-emerald-400" viewBox="0 0 24 24" fill="currentColor"><path d="M3.609 1.814L13.792 12 3.61 22.186a2.27 2.27 0 0 1-.61-.926V2.74c.15-.36.368-.682.61-.926zm11.305 11.306l2.367 2.367-12.01 6.864 9.643-9.231zm2.367-2.24l-2.367 2.367-9.643-9.23 12.01 6.863zm1.122 1.12l3.076 1.758a1.272 1.272 0 0 1 0 2.204l-3.076 1.758-2.146-2.146 2.146-1.574z"/></svg>
+          <span>Play Store</span>
+        </a>
+        <a href="https://github.com/MukeshDatyal" target="_blank" rel="noopener noreferrer" class="hidden sm:inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium text-secondary hover:text-primary bg-surface border border-borderline hover:border-borderline-hover rounded-md transition-colors">
           <span>GitHub</span>
-          <svg class="w-3 h-3 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+          <svg class="w-3 h-3 text-muted" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
         </a>
 
         <!-- Mobile Menu Trigger -->
@@ -187,15 +192,18 @@
     <!-- Mobile Navigation Drawer -->
     <div id="mobile-menu" class="hidden md:hidden border-b border-borderline bg-canvas px-6 py-4 space-y-3">
       <a href="#work" class="block text-sm text-secondary hover:text-primary py-1">Work</a>
+      <a href="#catalog" class="block text-sm text-secondary hover:text-primary py-1">All Apps Directory</a>
       <a href="#datyaltech" class="block text-sm text-secondary hover:text-primary py-1">DatyalTech</a>
       <a href="#about" class="block text-sm text-secondary hover:text-primary py-1">About</a>
       <a href="#experience" class="block text-sm text-secondary hover:text-primary py-1">Experience</a>
-      <a href="#stack" class="block text-sm text-secondary hover:text-primary py-1">Stack</a>
+      <a href="#social" class="block text-sm text-secondary hover:text-primary py-1">Social Channels</a>
       <a href="#contact" class="block text-sm text-secondary hover:text-primary py-1">Contact</a>
-      <div class="pt-2 border-t border-borderline">
-        <a href="https://github.com/MukeshDatyal" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 text-xs text-accent">
-          <span>View GitHub Profile</span>
-          <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+      <div class="pt-3 border-t border-borderline flex flex-col gap-2">
+        <a href="https://play.google.com/store/apps/dev?id=5198842058528925619&hl=en" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 text-xs text-accent">
+          <span>Google Play Developer Profile ↗</span>
+        </a>
+        <a href="https://github.com/MukeshDatyal" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 text-xs text-secondary hover:text-primary">
+          <span>GitHub (@MukeshDatyal) ↗</span>
         </a>
       </div>
     </div>
@@ -226,8 +234,8 @@
               <a href="#work" class="inline-flex items-center justify-center px-5 py-2.5 rounded-md bg-primary text-canvas font-medium text-xs tracking-tight hover:bg-white transition-all shadow-sm">
                 Explore my work
               </a>
-              <a href="https://github.com/MukeshDatyal" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-md bg-surface border border-borderline hover:border-borderline-hover text-primary font-medium text-xs tracking-tight transition-all">
-                <span>GitHub</span>
+              <a href="https://play.google.com/store/apps/dev?id=5198842058528925619&hl=en" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-md bg-surface border border-borderline hover:border-borderline-hover text-primary font-medium text-xs tracking-tight transition-all">
+                <span>Google Play Catalog</span>
                 <svg class="w-3.5 h-3.5 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
               </a>
             </div>
@@ -247,12 +255,11 @@
           <div class="lg:col-span-5 flex justify-center lg:justify-end">
             <div class="relative w-full max-w-[340px]">
               
-              <!-- Ambient Subtle Glow (controlled, non-distracting) -->
+              <!-- Subtle glow -->
               <div class="absolute -inset-1 rounded-[36px] bg-gradient-to-b from-accent/15 via-transparent to-accent-violet/10 blur-xl -z-10 opacity-70"></div>
 
               <!-- Android Device Frame Mockup -->
               <div class="android-frame bg-canvas rounded-[32px] p-2.5 border border-borderline-hover">
-                <!-- Outer bezel -->
                 <div class="bg-subcanvas rounded-[26px] overflow-hidden border border-borderline/80 relative">
                   
                   <!-- Android Status Bar & Punch Hole Camera -->
@@ -265,7 +272,7 @@
                     </div>
                   </div>
 
-                  <!-- In-Frame Application UI (Mutual Fund Calculator preview) -->
+                  <!-- In-Frame Application UI (Financial Calculators : India preview) -->
                   <div class="p-4 space-y-3.5 text-left">
                     <div class="flex items-center justify-between">
                       <div class="flex items-center gap-2">
@@ -273,54 +280,52 @@
                           ₹
                         </div>
                         <div>
-                          <div class="text-xs font-semibold text-primary">SIP Planner</div>
-                          <div class="text-[10px] text-muted">DatyalTech Finance</div>
+                          <div class="text-xs font-semibold text-primary">Financial Calculators</div>
+                          <div class="text-[10px] text-muted">DatyalTech Suite</div>
                         </div>
                       </div>
-                      <span class="text-[9px] px-2 py-0.5 rounded bg-accent/10 text-accent font-mono border border-accent/20">Active</span>
+                      <span class="text-[9px] px-2 py-0.5 rounded bg-emerald-500/10 text-emerald-400 font-mono border border-emerald-500/20">India</span>
                     </div>
 
                     <!-- Visual Calculation Preview Card -->
                     <div class="p-3 rounded-lg bg-surface border border-borderline space-y-2">
                       <div class="flex justify-between items-center text-[10px] text-secondary">
-                        <span>Expected Corpus (10 Yrs)</span>
-                        <span class="text-accent font-mono">12.5% p.a.</span>
+                        <span>PPF / SIP / Post Office</span>
+                        <span class="text-accent font-mono">Offline-First</span>
                       </div>
                       <div class="text-lg font-semibold tracking-tight text-primary font-mono">
-                        ₹ 23,23,391
+                        ₹ 15,00,000
                       </div>
                       <div class="w-full bg-surface-elevated rounded-full h-1.5 overflow-hidden flex">
-                        <div class="bg-accent h-full w-[45%]" title="Invested Amount"></div>
-                        <div class="bg-accent-violet h-full w-[55%]" title="Estimated Returns"></div>
+                        <div class="bg-accent h-full w-[45%]" title="Principal Deposit"></div>
+                        <div class="bg-accent-violet h-full w-[55%]" title="Compound Interest"></div>
                       </div>
                       <div class="flex justify-between text-[9px] text-muted pt-0.5">
-                        <span>Invested: ₹6,00,000</span>
-                        <span class="text-secondary font-mono">Gain: ₹17,23,391</span>
+                        <span>Principal: ₹6,75,000</span>
+                        <span class="text-secondary font-mono">Interest: ₹8,25,000</span>
                       </div>
                     </div>
 
                     <!-- Mini Tools Stack List in Device -->
                     <div class="space-y-1.5">
-                      <div class="text-[10px] font-mono text-muted uppercase tracking-wider">Quick Utilities</div>
+                      <div class="text-[10px] font-mono text-muted uppercase tracking-wider">Quick Suites</div>
                       <div class="grid grid-cols-2 gap-2 text-[10px]">
                         <div class="p-2 rounded bg-surface/70 border border-borderline/60 flex items-center gap-2">
                           <span class="text-accent">●</span>
-                          <span class="text-secondary">SWP Horizon</span>
+                          <span class="text-secondary">SubTrack</span>
                         </div>
                         <div class="p-2 rounded bg-surface/70 border border-borderline/60 flex items-center gap-2">
                           <span class="text-emerald-400">●</span>
-                          <span class="text-secondary">Lump Sum</span>
+                          <span class="text-secondary">Cement Calc</span>
                         </div>
                       </div>
                     </div>
 
-                    <!-- Subtle Offline-first Technical Tag -->
                     <div class="p-2 rounded bg-surface-elevated/80 border border-borderline flex items-center justify-between text-[10px]">
-                      <span class="text-muted">Storage Engine</span>
-                      <span class="font-mono text-secondary">Local · Offline-First</span>
+                      <span class="text-muted">Storage &amp; Privacy</span>
+                      <span class="font-mono text-secondary">100% Local · No Cloud</span>
                     </div>
 
-                    <!-- Bottom Nav Line in Phone -->
                     <div class="pt-2 flex justify-center">
                       <div class="w-24 h-1 rounded-full bg-white/20"></div>
                     </div>
@@ -332,7 +337,7 @@
               <!-- Floating Micro Badge -->
               <div class="absolute -bottom-3 -right-2 bg-surface-elevated border border-borderline-hover px-3 py-1.5 rounded-lg shadow-xl flex items-center gap-2 text-[11px] text-secondary">
                 <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
-                <span>Verified Google Play Apps</span>
+                <span>Verified Google Play Developer</span>
               </div>
 
             </div>
@@ -354,7 +359,7 @@
           <span class="hidden sm:inline text-borderline">·</span>
           <span>Finance Tools</span>
           <span class="hidden sm:inline text-borderline">·</span>
-          <span>Productivity</span>
+          <span>Productivity &amp; Utilities</span>
           <span class="hidden sm:inline text-borderline">·</span>
           <span class="text-primary font-medium">DatyalTech</span>
         </div>
@@ -364,7 +369,6 @@
     <section id="work" class="py-20 border-b border-borderline">
       <div class="max-w-[1180px] mx-auto px-6">
         
-        <!-- Section Header -->
         <div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
           <div>
             <span class="text-xs font-mono uppercase tracking-wider text-accent">Portfolio</span>
@@ -372,14 +376,14 @@
               Selected Work
             </h2>
             <p class="text-secondary text-sm sm:text-base mt-2 max-w-xl">
-              A selection of mobile applications and digital tools I've built and published.
+              Practical mobile applications built with native performance, clean architecture, and offline privacy.
             </p>
           </div>
 
           <!-- Category Filter Bar -->
           <div class="flex flex-wrap gap-2 text-xs font-mono" id="filter-container">
             <button data-filter="all" class="filter-btn px-3 py-1.5 rounded bg-primary text-canvas font-medium transition-colors">
-              All (8)
+              All
             </button>
             <button data-filter="Finance" class="filter-btn px-3 py-1.5 rounded bg-surface border border-borderline text-secondary hover:text-primary transition-colors">
               Finance
@@ -396,7 +400,7 @@
           </div>
         </div>
 
-        <!-- Asymmetric Portfolio Grid Container (Rendered dynamically from reliable JS structure) -->
+        <!-- Asymmetric Portfolio Grid -->
         <div id="projects-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <!-- Populated by JavaScript below -->
         </div>
@@ -411,17 +415,17 @@
               </div>
               <h3 class="text-xl font-semibold text-primary">Datyal Furniture</h3>
               <p class="text-secondary text-sm leading-relaxed max-w-2xl">
-                Alongside software development, DatyalTech has also been involved in digital work supporting Datyal Furniture, including its website and mobile application. This demonstrates how practical software engineering translates directly into real-world business operations and customer utility.
+                Alongside independent software development, DatyalTech has also been involved in digital work supporting Datyal Furniture, including its official web presence and dedicated Android companion application. This demonstrates how engineering directly bridges into physical commerce, production workflows, and customer utility.
               </p>
             </div>
             <div class="lg:col-span-4 flex flex-col sm:flex-row lg:flex-col gap-3 justify-center">
-              <a href="https://datyalfurniture.com" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-between px-4 py-2.5 rounded-md bg-surface-elevated border border-borderline hover:border-borderline-hover text-xs text-primary transition-colors">
-                <span>Official Website</span>
-                <svg class="w-3.5 h-3.5 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+              <a href="https://www.datyalfurniture.in" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-between px-4 py-2.5 rounded-md bg-surface-elevated border border-borderline hover:border-borderline-hover text-xs text-primary transition-colors group">
+                <span class="font-mono text-secondary group-hover:text-primary transition-colors">www.datyalfurniture.in</span>
+                <svg class="w-3.5 h-3.5 text-secondary group-hover:text-primary transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
               </a>
-              <a href="https://play.google.com/store/apps/details?id=datyaltech.android.datyalfurniture" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-between px-4 py-2.5 rounded-md bg-surface-elevated border border-borderline hover:border-borderline-hover text-xs text-secondary hover:text-primary transition-colors">
-                <span>Application on Google Play</span>
-                <svg class="w-3.5 h-3.5 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+              <a href="https://play.google.com/store/apps/details?id=datyaltech.android.datyalfurniture" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-between px-4 py-2.5 rounded-md bg-surface-elevated border border-borderline hover:border-borderline-hover text-xs text-secondary hover:text-primary transition-colors group">
+                <span>Datyal Furniture on Google Play</span>
+                <svg class="w-3.5 h-3.5 text-secondary group-hover:text-primary transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
               </a>
             </div>
           </div>
@@ -430,12 +434,49 @@
       </div>
     </section>
 
-    <section id="datyaltech" class="py-20 border-b border-borderline bg-subcanvas/40 relative">
+    <section id="catalog" class="py-20 border-b border-borderline bg-subcanvas/30">
+      <div class="max-w-[1180px] mx-auto px-6">
+        <div class="flex flex-col md:flex-row md:items-end justify-between mb-8 gap-4">
+          <div>
+            <span class="text-xs font-mono uppercase tracking-wider text-accent">Catalog</span>
+            <h2 class="text-2xl sm:text-3xl font-semibold tracking-tight text-primary mt-1">
+              All Published Applications
+            </h2>
+            <p class="text-secondary text-sm mt-1">
+              Comprehensive list of production software published under the DatyalTech developer account.
+            </p>
+          </div>
+          <a href="https://play.google.com/store/apps/dev?id=5198842058528925619&hl=en" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 text-xs font-mono text-accent hover:underline">
+            <span>View Developer Console Profile ↗</span>
+          </a>
+        </div>
+
+        <div class="rounded-xl border border-borderline bg-surface overflow-hidden">
+          <div class="overflow-x-auto">
+            <table class="w-full text-left text-xs">
+              <thead class="bg-surface-elevated text-muted uppercase font-mono border-b border-borderline">
+                <tr>
+                  <th scope="col" class="py-3 px-4 font-medium">Application</th>
+                  <th scope="col" class="py-3 px-4 font-medium hidden sm:table-cell">Category</th>
+                  <th scope="col" class="py-3 px-4 font-medium hidden md:table-cell">Key Focus</th>
+                  <th scope="col" class="py-3 px-4 font-medium text-right">Destination</th>
+                </tr>
+              </thead>
+              <tbody id="app-directory-body" class="divide-y divide-borderline text-secondary">
+                <!-- Dynamically populated from allApps array -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="datyaltech" class="py-20 border-b border-borderline bg-subcanvas/50 relative">
       <div class="max-w-[1180px] mx-auto px-6">
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
           
           <div class="lg:col-span-7 space-y-5">
-            <span class="text-xs font-mono uppercase tracking-wider text-accent">Independent Software</span>
+            <span class="text-xs font-mono uppercase tracking-wider text-accent">Independent Studio</span>
             <h2 class="text-2xl sm:text-3xl font-semibold tracking-tight text-primary">
               Building DatyalTech
             </h2>
@@ -444,19 +485,19 @@
                 DatyalTech is my independent software brand where I build and publish practical Android applications and digital tools.
               </p>
               <p>
-                The idea is simple: take an everyday problem, remove unnecessary complexity, and turn it into a useful product. Rather than adding bloated features or aggressive tracking, each application focuses on doing its primary task reliably and quickly.
+                The idea is simple: take an everyday problem, remove unnecessary complexity, and turn it into a useful product. Rather than adding bloated features or third-party ad networks that track users, each utility focuses on doing its primary task reliably, quickly, and often completely offline.
               </p>
             </div>
             
-            <div class="pt-2 flex items-center gap-3">
-              <a href="#work" class="inline-flex items-center gap-2 text-xs font-medium text-accent hover:text-white transition-colors">
-                <span>Explore DatyalTech Catalog</span>
+            <div class="pt-2 flex flex-wrap items-center gap-4">
+              <a href="https://play.google.com/store/apps/dev?id=5198842058528925619&hl=en" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-xs font-medium text-accent hover:text-white transition-colors">
+                <span>Browse All Products on Google Play</span>
                 <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
               </a>
             </div>
           </div>
 
-          <!-- Elegant Wordmark Typography Visual -->
+          <!-- Editorial Studio Card -->
           <div class="lg:col-span-5 flex flex-col justify-center items-start lg:items-end">
             <div class="w-full max-w-sm p-8 rounded-xl bg-surface border border-borderline space-y-4 text-left">
               <div class="font-mono text-3xl sm:text-4xl font-bold tracking-tighter text-primary border-b border-borderline pb-4">
@@ -464,8 +505,8 @@
               </div>
               <div class="text-xs text-muted font-mono space-y-1">
                 <div class="text-secondary font-medium">Independent Product Studio</div>
-                <div>Mobile Apps · Digital Tools · Offline Utilities</div>
-                <div class="pt-2 text-[10px] text-muted">EST. HIMACHAL PRADESH</div>
+                <div>Mobile Apps · Digital Tools · Product Development</div>
+                <div class="pt-2 text-[10px] text-muted">HIMACHAL PRADESH · INDIA</div>
               </div>
             </div>
           </div>
@@ -484,6 +525,7 @@
               About Me
             </h2>
             <div class="mt-4 text-xs font-mono text-muted space-y-2">
+              <div>NAME: Mukesh Datyal (Mukesh Kumar Datyal)</div>
               <div>LOCATION: Himachal Pradesh, India</div>
               <div>PRIMARY FOCUS: Android &amp; Practical Systems</div>
               <div>STARTED: 2016</div>
@@ -495,13 +537,12 @@
               I'm Mukesh Datyal, an Android developer and independent product builder from Himachal Pradesh, India.
             </p>
             <p>
-              I started my professional Android development journey in 2016 and have worked across native and hybrid mobile development. Over the years, my career has taken me from team-based professional Android development into independent product building. Today, I develop and publish practical applications through DatyalTech.
+              I started my professional Android development journey in 2016 and have worked across native and hybrid mobile development. My career has taken me from professional Android development into independent product building. Today, I develop and publish practical applications through DatyalTech.
             </p>
             <p>
               My interests span financial calculators, productivity tools, utilities, construction software and other applications built around everyday problems. I enjoy taking an idea from a simple problem through interface design, development, testing and publishing.
             </p>
 
-            <!-- Personal Brand Statement Callout -->
             <div class="mt-8 p-5 rounded-lg bg-surface border border-borderline text-sm text-primary leading-relaxed border-l-2 border-l-accent">
               <span class="text-xs font-mono text-muted uppercase block mb-1">Guiding Principle</span>
               "Building practical mobile software from idea to published product."
@@ -525,12 +566,11 @@
           </p>
         </div>
 
-        <!-- Vertical Timeline Visual (Thin line, discrete nodes) -->
+        <!-- Vertical Timeline Visual -->
         <div class="relative border-l border-borderline ml-3 sm:ml-4 pl-6 sm:pl-8 space-y-12">
 
-          <!-- 2023 - Present: DatyalTech Co. (Strongest Visual Emphasis) -->
+          <!-- 2023 - Present: DatyalTech Co. -->
           <div class="relative group">
-            <!-- Node Marker -->
             <div class="absolute -left-[31px] sm:-left-[39px] top-1.5 w-3.5 h-3.5 rounded-full bg-accent border-4 border-canvas"></div>
             
             <div class="p-6 rounded-xl bg-surface border border-borderline-hover relative">
@@ -543,7 +583,7 @@
               </div>
               <div class="text-xs font-mono text-secondary mb-3">Founder · Android Developer · Product Builder</div>
               <p class="text-secondary text-sm leading-relaxed">
-                Building and publishing practical mobile applications and digital products under the DatyalTech brand. Managing the complete lifecycle: problem identification, native Android architecture, UI design, Google Play publishing, and ongoing maintenance.
+                Building and publishing practical mobile applications and digital products under the DatyalTech brand. Managing the complete lifecycle: problem identification, native Android architecture, UI design, Google Play publishing, and continuous iterative improvement.
               </p>
             </div>
           </div>
@@ -623,7 +663,6 @@
           </div>
 
           <div class="md:col-span-8 grid grid-cols-1 sm:grid-cols-2 gap-4">
-            <!-- Degree 1 -->
             <div class="p-5 rounded-lg bg-surface border border-borderline">
               <div class="text-xs font-mono text-accent">2012 — 2015</div>
               <h3 class="text-sm font-semibold text-primary mt-1">Bachelor of Technology</h3>
@@ -631,7 +670,6 @@
               <p class="text-xs text-muted mt-2">Himachal Pradesh Technical University</p>
             </div>
 
-            <!-- Degree 2 -->
             <div class="p-5 rounded-lg bg-surface border border-borderline">
               <div class="text-xs font-mono text-accent">2009 — 2012</div>
               <h3 class="text-sm font-semibold text-primary mt-1">Polytechnic Diploma</h3>
@@ -657,7 +695,6 @@
 
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           
-          <!-- Mobile Column -->
           <div class="p-5 rounded-lg bg-surface border border-borderline space-y-3">
             <div class="text-xs font-mono uppercase tracking-wider text-accent border-b border-borderline pb-2 font-medium">
               Mobile
@@ -671,7 +708,6 @@
             </ul>
           </div>
 
-          <!-- Architecture Column -->
           <div class="p-5 rounded-lg bg-surface border border-borderline space-y-3">
             <div class="text-xs font-mono uppercase tracking-wider text-accent border-b border-borderline pb-2 font-medium">
               Architecture
@@ -684,26 +720,24 @@
             </ul>
           </div>
 
-          <!-- Data Column -->
           <div class="p-5 rounded-lg bg-surface border border-borderline space-y-3">
             <div class="text-xs font-mono uppercase tracking-wider text-accent border-b border-borderline pb-2 font-medium">
               Data &amp; APIs
             </div>
             <ul class="text-sm space-y-2 text-secondary">
               <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-borderline-hover"></span>SQLite</li>
-              <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-borderline-hover"></span>Isar</li>
-              <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-borderline-hover"></span>Local Storage</li>
+              <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-borderline-hover"></span>Isar Database</li>
+              <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-borderline-hover"></span>Encrypted Local Storage</li>
               <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-borderline-hover"></span>REST APIs</li>
             </ul>
           </div>
 
-          <!-- Product Column -->
           <div class="p-5 rounded-lg bg-surface border border-borderline space-y-3">
             <div class="text-xs font-mono uppercase tracking-wider text-accent border-b border-borderline pb-2 font-medium">
               Product
             </div>
             <ul class="text-sm space-y-2 text-secondary">
-              <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-borderline-hover"></span>Material Design</li>
+              <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-borderline-hover"></span>Material 3 Design</li>
               <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-borderline-hover"></span>Responsive UI</li>
               <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-borderline-hover"></span>Google Play Console</li>
               <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-borderline-hover"></span>App Store Optimization</li>
@@ -727,7 +761,6 @@
         </div>
 
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          
           <div class="p-5 rounded-lg bg-surface border border-borderline">
             <div class="font-mono text-xs text-accent">01 — UNDERSTAND</div>
             <h3 class="text-base font-semibold text-primary mt-2">Find the actual problem</h3>
@@ -759,81 +792,122 @@
               Ship to Google Play, monitor real crash metrics and user reviews, and refine the tool based on actual utility.
             </p>
           </div>
-
         </div>
       </div>
     </section>
 
-    <section class="py-20 border-b border-borderline bg-subcanvas/30">
-      <div class="max-w-[1180px] mx-auto px-6">
-        <div class="p-6 sm:p-10 rounded-xl bg-surface border border-borderline flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
-          <div class="space-y-2">
-            <div class="inline-flex items-center gap-2 text-xs font-mono text-muted uppercase">
-              <svg class="w-4 h-4 text-secondary" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
-              <span>Code &amp; experiments</span>
-            </div>
-            <h3 class="text-xl sm:text-2xl font-semibold text-primary">Open Source &amp; Development</h3>
-            <p class="text-secondary text-sm max-w-xl">
-              My GitHub contains selected development work, experiments and projects across Android, Flutter, and native utilities.
-            </p>
-          </div>
-
-          <a href="https://github.com/MukeshDatyal" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-md bg-surface-elevated border border-borderline hover:border-borderline-hover text-primary text-xs font-medium transition-colors">
-            <span>Visit GitHub (@MukeshDatyal)</span>
-            <svg class="w-3.5 h-3.5 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <section class="py-16 border-b border-borderline">
+    <section id="social" class="py-20 border-b border-borderline bg-subcanvas/30">
       <div class="max-w-[1180px] mx-auto px-6">
         <div class="flex flex-col sm:flex-row justify-between items-baseline mb-8">
           <div>
-            <span class="text-xs font-mono uppercase tracking-wider text-muted">Network</span>
-            <h2 class="text-xl sm:text-2xl font-semibold tracking-tight text-primary mt-1">
+            <span class="text-xs font-mono uppercase tracking-wider text-accent">Network &amp; Channels</span>
+            <h2 class="text-2xl sm:text-3xl font-semibold tracking-tight text-primary mt-1">
               Find me online
             </h2>
           </div>
-          <span class="text-xs text-muted font-mono mt-1 sm:mt-0">Verified official profiles only</span>
+          <span class="text-xs text-muted font-mono mt-1 sm:mt-0">Official personal &amp; DatyalTech pages</span>
         </div>
 
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          
+          <!-- Google Play Developer Console -->
+          <a href="https://play.google.com/store/apps/dev?id=5198842058528925619&hl=en" target="_blank" rel="noopener noreferrer" class="p-4 rounded-lg bg-surface border border-borderline hover:border-borderline-hover flex items-center justify-between group transition-colors">
+            <div class="flex items-center gap-3">
+              <div class="w-8 h-8 rounded bg-surface-elevated flex items-center justify-center text-emerald-400">
+                <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor"><path d="M3.609 1.814L13.792 12 3.61 22.186a2.27 2.27 0 0 1-.61-.926V2.74c.15-.36.368-.682.61-.926zm11.305 11.306l2.367 2.367-12.01 6.864 9.643-9.231zm2.367-2.24l-2.367 2.367-9.643-9.23 12.01 6.863zm1.122 1.12l3.076 1.758a1.272 1.272 0 0 1 0 2.204l-3.076 1.758-2.146-2.146 2.146-1.574z"/></svg>
+              </div>
+              <div>
+                <div class="text-sm font-medium text-primary">Google Play Store</div>
+                <div class="text-xs text-muted">DatyalTech Developer Catalog</div>
+              </div>
+            </div>
+            <svg class="w-4 h-4 text-muted group-hover:text-primary transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+          </a>
+
           <!-- GitHub -->
           <a href="https://github.com/MukeshDatyal" target="_blank" rel="noopener noreferrer" class="p-4 rounded-lg bg-surface border border-borderline hover:border-borderline-hover flex items-center justify-between group transition-colors">
-            <div>
-              <div class="text-sm font-medium text-primary">GitHub</div>
-              <div class="text-xs text-muted">@MukeshDatyal</div>
+            <div class="flex items-center gap-3">
+              <div class="w-8 h-8 rounded bg-surface-elevated flex items-center justify-center text-secondary">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+              </div>
+              <div>
+                <div class="text-sm font-medium text-primary">GitHub</div>
+                <div class="text-xs text-muted">@MukeshDatyal</div>
+              </div>
             </div>
             <svg class="w-4 h-4 text-muted group-hover:text-primary transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
           </a>
 
-          <!-- Google Play -->
-          <a href="https://play.google.com/store/apps/developer?id=DatyalTech" target="_blank" rel="noopener noreferrer" class="p-4 rounded-lg bg-surface border border-borderline hover:border-borderline-hover flex items-center justify-between group transition-colors">
-            <div>
-              <div class="text-sm font-medium text-primary">Google Play</div>
-              <div class="text-xs text-muted">DatyalTech Catalog</div>
+          <!-- Facebook: DatyalTech -->
+          <a href="https://facebook.com/datyaltech" target="_blank" rel="noopener noreferrer" class="p-4 rounded-lg bg-surface border border-borderline hover:border-borderline-hover flex items-center justify-between group transition-colors">
+            <div class="flex items-center gap-3">
+              <div class="w-8 h-8 rounded bg-surface-elevated flex items-center justify-center text-blue-400">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+              </div>
+              <div>
+                <div class="text-sm font-medium text-primary">Facebook</div>
+                <div class="text-xs text-muted">@datyaltech</div>
+              </div>
             </div>
             <svg class="w-4 h-4 text-muted group-hover:text-primary transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
           </a>
 
-          <!-- DatyalTech Studio -->
-          <a href="#datyaltech" class="p-4 rounded-lg bg-surface border border-borderline hover:border-borderline-hover flex items-center justify-between group transition-colors">
-            <div>
-              <div class="text-sm font-medium text-primary">DatyalTech</div>
-              <div class="text-xs text-muted">Product Studio</div>
+          <!-- Instagram: DatyalTech -->
+          <a href="https://instagram.com/datyaltech" target="_blank" rel="noopener noreferrer" class="p-4 rounded-lg bg-surface border border-borderline hover:border-borderline-hover flex items-center justify-between group transition-colors">
+            <div class="flex items-center gap-3">
+              <div class="w-8 h-8 rounded bg-surface-elevated flex items-center justify-center text-pink-400">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+              </div>
+              <div>
+                <div class="text-sm font-medium text-primary">Instagram</div>
+                <div class="text-xs text-muted">@datyaltech</div>
+              </div>
             </div>
             <svg class="w-4 h-4 text-muted group-hover:text-primary transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
           </a>
 
-          <!-- Reddit Community -->
+          <!-- X / Twitter: DatyalTech -->
+          <a href="https://x.com/datyaltech" target="_blank" rel="noopener noreferrer" class="p-4 rounded-lg bg-surface border border-borderline hover:border-borderline-hover flex items-center justify-between group transition-colors">
+            <div class="flex items-center gap-3">
+              <div class="w-8 h-8 rounded bg-surface-elevated flex items-center justify-center text-primary">
+                <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+              </div>
+              <div>
+                <div class="text-sm font-medium text-primary">X (Twitter)</div>
+                <div class="text-xs text-muted">@datyaltech</div>
+              </div>
+            </div>
+            <svg class="w-4 h-4 text-muted group-hover:text-primary transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+          </a>
+
+          <!-- Reddit Community: DatyalTech -->
           <a href="https://www.reddit.com/r/DatyalTech/" target="_blank" rel="noopener noreferrer" class="p-4 rounded-lg bg-surface border border-borderline hover:border-borderline-hover flex items-center justify-between group transition-colors">
-            <div>
-              <div class="text-sm font-medium text-primary">Reddit Community</div>
-              <div class="text-xs text-muted">r/DatyalTech</div>
+            <div class="flex items-center gap-3">
+              <div class="w-8 h-8 rounded bg-surface-elevated flex items-center justify-center text-orange-400">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0zm5.01 4.744c.688 0 1.25.561 1.25 1.249a1.25 1.25 0 0 1-2.498.056l-2.597-.547-.8 3.747c1.824.07 3.48.632 4.674 1.488.308-.309.73-.491 1.207-.491.968 0 1.754.786 1.754 1.754 0 .716-.435 1.333-1.01 1.614a3.111 3.111 0 0 1 .042.52c0 2.694-3.13 4.87-7.004 4.87-3.874 0-7.004-2.176-7.004-4.87 0-.183.015-.366.043-.534A1.748 1.748 0 0 1 4.028 12c0-.968.786-1.754 1.754-1.754.463 0 .898.196 1.207.49 1.207-.883 2.878-1.43 4.744-1.487l.885-4.182a.342.342 0 0 1 .14-.197.35.35 0 0 1 .238-.042l2.906.617a1.214 1.214 0 0 1 1.108-.701zM9.25 12C8.561 12 8 12.562 8 13.25c0 .687.561 1.248 1.25 1.248.687 0 1.248-.561 1.248-1.249 0-.688-.561-1.249-1.249-1.249zm5.5 0c-.687 0-1.248.561-1.248 1.25 0 .687.561 1.248 1.249 1.248.688 0 1.249-.561 1.249-1.249 0-.687-.562-1.249-1.25-1.249zm-5.466 3.99a.327.327 0 0 0-.231.094.33.33 0 0 0 0 .463c.842.842 2.484.913 2.961.913.477 0 2.105-.056 2.961-.913a.361.361 0 0 0 .029-.463.33.33 0 0 0-.464 0c-.547.533-1.684.73-2.512.73-.828 0-1.979-.197-2.512-.73a.326.326 0 0 0-.232-.095z"/></svg>
+              </div>
+              <div>
+                <div class="text-sm font-medium text-primary">Reddit Community</div>
+                <div class="text-xs text-muted">r/DatyalTech</div>
+              </div>
             </div>
             <svg class="w-4 h-4 text-muted group-hover:text-primary transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
           </a>
+
+          <!-- YouTube Channel -->
+          <a href="https://www.youtube.com/@datyaltechandroiddeveloper9505" target="_blank" rel="noopener noreferrer" class="p-4 rounded-lg bg-surface border border-borderline hover:border-borderline-hover flex items-center justify-between group transition-colors">
+            <div class="flex items-center gap-3">
+              <div class="w-8 h-8 rounded bg-surface-elevated flex items-center justify-center text-red-500">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+              </div>
+              <div>
+                <div class="text-sm font-medium text-primary">YouTube</div>
+                <div class="text-xs text-muted">@datyaltechandroiddeveloper</div>
+              </div>
+            </div>
+            <svg class="w-4 h-4 text-muted group-hover:text-primary transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+          </a>
+
         </div>
       </div>
     </section>
@@ -873,29 +947,37 @@
     </section>
   </main>
 
-  <footer class="border-t border-borderline bg-canvas py-10 text-xs text-muted">
-    <div class="max-w-[1180px] mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-6">
-      <div class="space-y-1 text-center sm:text-left">
-        <div class="font-medium text-primary">Mukesh Datyal</div>
-        <div>Android Developer · Product Builder · DatyalTech</div>
+  <footer class="border-t border-borderline bg-canvas py-12 text-xs text-muted">
+    <div class="max-w-[1180px] mx-auto px-6 space-y-8">
+      <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+        <div class="space-y-1 text-center md:text-left">
+          <div class="font-medium text-primary">Mukesh Datyal</div>
+          <div>Android Developer · Product Builder · Founder of DatyalTech</div>
+          <div class="text-[11px] text-muted">Himachal Pradesh, India</div>
+        </div>
+
+        <div class="flex flex-wrap justify-center items-center gap-x-6 gap-y-2 text-secondary">
+          <a href="https://play.google.com/store/apps/dev?id=5198842058528925619&hl=en" target="_blank" rel="noopener noreferrer" class="hover:text-primary transition-colors">Play Store</a>
+          <a href="https://github.com/MukeshDatyal" target="_blank" rel="noopener noreferrer" class="hover:text-primary transition-colors">GitHub</a>
+          <a href="https://facebook.com/datyaltech" target="_blank" rel="noopener noreferrer" class="hover:text-primary transition-colors">Facebook</a>
+          <a href="https://instagram.com/datyaltech" target="_blank" rel="noopener noreferrer" class="hover:text-primary transition-colors">Instagram</a>
+          <a href="https://x.com/datyaltech" target="_blank" rel="noopener noreferrer" class="hover:text-primary transition-colors">X</a>
+          <a href="https://www.reddit.com/r/DatyalTech/" target="_blank" rel="noopener noreferrer" class="hover:text-primary transition-colors">Reddit</a>
+          <a href="https://www.youtube.com/@datyaltechandroiddeveloper9505" target="_blank" rel="noopener noreferrer" class="hover:text-primary transition-colors">YouTube</a>
+          <a href="https://www.datyalfurniture.in" target="_blank" rel="noopener noreferrer" class="hover:text-primary transition-colors">Datyal Furniture</a>
+        </div>
       </div>
 
-      <div class="flex items-center gap-6 text-secondary">
-        <a href="https://github.com/MukeshDatyal" target="_blank" rel="noopener noreferrer" class="hover:text-primary transition-colors">GitHub</a>
-        <a href="https://play.google.com/store/apps/developer?id=DatyalTech" target="_blank" rel="noopener noreferrer" class="hover:text-primary transition-colors">Google Play</a>
-        <a href="#datyaltech" class="hover:text-primary transition-colors">DatyalTech</a>
-      </div>
-
-      <div class="text-center sm:text-right space-y-1">
-        <div>© 2026 Mukesh Datyal</div>
-        <div class="text-[10px] text-muted/70">Built with care.</div>
+      <div class="flex flex-col sm:flex-row items-center justify-between pt-6 border-t border-borderline/60 text-muted text-[11px]">
+        <div>© 2026 Mukesh Datyal. Published via DatyalTech.</div>
+        <div class="pt-2 sm:pt-0">Built with care · No AI hype, real production software.</div>
       </div>
     </div>
   </footer>
 
   <div id="project-modal" class="fixed inset-0 z-50 hidden bg-black/80 backdrop-blur-sm flex items-center justify-center p-4">
     <div class="bg-surface border border-borderline rounded-xl max-w-lg w-full p-6 sm:p-8 space-y-6 relative shadow-2xl">
-      <button id="modal-close" class="absolute top-4 right-4 text-muted hover:text-primary p-2">
+      <button id="modal-close" class="absolute top-4 right-4 text-muted hover:text-primary p-2" aria-label="Close modal">
         <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
       </button>
 
@@ -923,7 +1005,7 @@
           Close
         </button>
         <a id="modal-play-link" href="#" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 px-4 py-2 text-xs rounded bg-primary text-canvas font-medium hover:bg-white transition-colors">
-          <span>View on Google Play</span>
+          <span>Open on Google Play</span>
           <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
         </a>
       </div>
@@ -931,8 +1013,8 @@
   </div>
 
   <script>
-    // Configurable safe contact email
-    const CONTACT_EMAIL = "mukeshdatyal@gmail.com";
+    // Safe configurable email
+    const CONTACT_EMAIL = "datyaltech@gmail.com";
 
     // Set dynamic mailto safely
     const emailLink = document.getElementById('email-link');
@@ -940,7 +1022,7 @@
       emailLink.href = `mailto:${CONTACT_EMAIL}?subject=Product%20Inquiry%20via%20Portfolio`;
     }
 
-    // Copy Email to Clipboard handler (using standard safe execCommand fallback for iFrame support)
+    // Copy Email to Clipboard handler (iFrame-safe standard approach)
     const copyBtn = document.getElementById('copy-email-btn');
     const copyToast = document.getElementById('copy-toast');
     if (copyBtn) {
@@ -969,7 +1051,6 @@
       menuBtn.addEventListener('click', () => {
         mobileMenu.classList.toggle('hidden');
       });
-      // Close menu on link click
       mobileMenu.querySelectorAll('a').forEach(link => {
         link.addEventListener('click', () => {
           mobileMenu.classList.add('hidden');
@@ -977,110 +1058,189 @@
       });
     }
 
-    // Projects Data (Structured, clean, verified links, zero fake numbers)
-    const projects = [
+    // Selected Featured Projects (Vehicle Expense & Document Vault replaced by user requested apps)
+    const featuredProjects = [
+      {
+        id: "financial-calculator",
+        name: "Financial Calculators : India",
+        category: "Finance",
+        badge: "Flagship Suite",
+        description: "Comprehensive financial calculation suite tailored for Indian banking, Post Office schemes, SIP, SWP, PPF and loan amortizations.",
+        playStore: "https://play.google.com/store/apps/details?id=datyaltech.android.financialcalculator&hl=en",
+        iconText: "₹",
+        featuredSize: "large", // Spans 2 columns
+        specs: "Indian Banking & Post Office Rules · Offline Math · Instant Results"
+      },
       {
         id: "mutual-fund-calculator",
         name: "Mutual Fund Calculator",
         category: "Finance",
-        badge: "Featured Product",
-        description: "Investment tools for SIP, SWP and lump-sum calculations, designed to make financial planning easier to understand.",
+        badge: "Finance Tool",
+        description: "Investment tools for SIP, SWP and lump-sum calculations, designed to make financial planning and wealth accumulation easier to understand.",
         playStore: "https://play.google.com/store/apps/details?id=datyaltech.android.mutualfundcalculator",
-        iconText: "₹",
-        featuredSize: "large", // spans 2 columns in asymmetric grid
-        previewImage: "assets/apps/mutual-fund-calculator/screen-01.png",
-        specs: "SIP / SWP / Lumpsum Calculations · Offline-First · Local Caching"
+        iconText: "📈",
+        featuredSize: "medium",
+        specs: "Compound Growth Curves · Target Corpus Modeling · Local Storage"
+      },
+      {
+        id: "subtrack",
+        name: "Subscription Tracker & Manager",
+        category: "Utility",
+        badge: "Budgeting",
+        description: "Keep complete control over recurring expenses, renewal schedules, and monthly subscriptions with zero cloud requirement.",
+        playStore: "https://play.google.com/store/apps/details?id=datyaltech.android.subtrack&hl=en",
+        iconText: "💳",
+        featuredSize: "normal",
+        specs: "Local Database · Renewal Reminders · Currency Support · Private"
+      },
+      {
+        id: "family-calendar",
+        name: "Family Calendar",
+        category: "Productivity",
+        badge: "Coordination",
+        description: "Simple, synchronized event planning and shared household schedule management designed for practical family routines.",
+        playStore: "https://play.google.com/store/apps/details?id=datyaltech.android.familycal&hl=en",
+        iconText: "👨‍👩‍👧",
+        featuredSize: "normal",
+        specs: "Intuitive Timelines · Event Categorization · Clean Material UI"
+      },
+      {
+        id: "cement-calculator",
+        name: "Cement Calculator Builder",
+        category: "Construction",
+        badge: "Site Utility",
+        description: "Accurate estimation tools for civil work, masonry, plaster, concrete mix ratios, and construction material requirements.",
+        playStore: "https://play.google.com/store/apps/details?id=datyaltech.android.cementcalculator&hl=en",
+        iconText: "🏗️",
+        featuredSize: "normal",
+        specs: "Mix Ratio Engineering · Bag Quantities · Slabs & Column Math"
+      },
+      {
+        id: "multiview-browser",
+        name: "Multi View Browser",
+        category: "Utility",
+        badge: "Web Tool",
+        description: "Specialized multi-window web browser for concurrent page monitoring, side-by-side verification, and multi-tab workflows.",
+        playStore: "https://play.google.com/store/apps/details?id=datyaltech.android.multiviewbrowser&hl=en",
+        iconText: "🪟",
+        featuredSize: "normal",
+        specs: "Multi-Surface WebView · Split Rendering · Low Memory Overhead"
       },
       {
         id: "pdf-tools",
         name: "PDF Tools Offline",
         category: "Productivity",
-        badge: "Local Utility",
-        description: "Practical PDF utilities designed for common document tasks without relying on cloud processing.",
+        badge: "Privacy Focus",
+        description: "Practical PDF utilities designed for common document tasks (merge, split, compress) without relying on cloud processing.",
         playStore: "https://play.google.com/store/apps/details?id=datyaltech.android.pdftoolsoffline",
-        iconText: "PDF",
-        featuredSize: "medium",
-        previewImage: "assets/apps/pdf-tools/screen-01.png",
-        specs: "On-device Rendering · No Cloud Dependency · Document Privacy"
-      },
-      {
-        id: "age-calculator",
-        name: "Age Calculator",
-        category: "Utility",
-        badge: "Productivity",
-        description: "A simple everyday utility for calculating age, dates and time intervals with clean visual breakdowns.",
-        playStore: "https://play.google.com/store/apps/details?id=datyaltech.android.agecalculator",
-        iconText: "📅",
+        iconText: "📄",
         featuredSize: "normal",
-        previewImage: "assets/apps/age-calculator/screen-01.png",
-        specs: "High-precision Date Math · Offline Storage · Lightweight"
-      },
-      {
-        id: "sip-calculator",
-        name: "SIP Calculator",
-        category: "Finance",
-        badge: "Finance Tool",
-        description: "A focused investment calculator for understanding SIP growth, contributions and potential returns over customized tenures.",
-        playStore: "https://play.google.com/store/apps/details?id=datyaltech.android.mutualfundcalculator",
-        iconText: "%",
-        featuredSize: "normal",
-        previewImage: "assets/apps/sip-calculator/screen-01.png",
-        specs: "Compound Interest Modeling · Inflation Adjusted · Visual Trends"
-      },
-      {
-        id: "interest-calculator",
-        name: "Interest Calculator Pro",
-        category: "Finance",
-        badge: "Calculation Utility",
-        description: "A practical financial calculator for everyday interest calculations across simple and compound repayment schedules.",
-        playStore: "https://play.google.com/store/apps/developer?id=DatyalTech",
-        iconText: "PRO",
-        featuredSize: "normal",
-        previewImage: "assets/apps/interest-calculator/screen-01.png",
-        specs: "Simple & Compound Calculations · Day-count Conventions"
+        specs: "On-device Rendering · 100% Offline Processing · Zero Uploads"
       },
       {
         id: "construction",
         name: "Datyal Construction",
         category: "Construction",
-        badge: "Specialized",
-        description: "Construction-focused tools for estimation, material calculations and structured project planning.",
+        badge: "Planning",
+        description: "Comprehensive contractor and builder utilities for project cost estimation, material planning, and site records.",
         playStore: "https://play.google.com/store/apps/developer?id=DatyalTech",
         iconText: "📐",
         featuredSize: "normal",
-        previewImage: "assets/apps/construction/screen-01.png",
-        specs: "Material Volume Estimators · Local Job Folders · Quick Inputs"
+        specs: "Estimator Algorithms · Project Budgeting · Offline-First"
       },
       {
-        id: "vehicle-expense",
-        name: "Vehicle Expense",
+        id: "age-calculator",
+        name: "Age Calculator",
         category: "Utility",
-        badge: "Log & Analytics",
-        description: "Tools for tracking vehicle expenses and understanding real running costs including fuel and periodic maintenance.",
-        playStore: "https://play.google.com/store/apps/developer?id=DatyalTech",
-        iconText: "⛽",
+        badge: "Essential",
+        description: "A fast, lightweight utility for calculating exact age, milestone dates, and time interval differences.",
+        playStore: "https://play.google.com/store/apps/details?id=datyaltech.android.agecalculator",
+        iconText: "⏱️",
         featuredSize: "normal",
-        previewImage: "assets/apps/vehicle-expense/screen-01.png",
-        specs: "Fuel Mileage Tracking · Service History Logs · Local Storage"
-      },
-      {
-        id: "document-vault",
-        name: "Document Vault",
-        category: "Productivity",
-        badge: "Privacy Focus",
-        description: "A local document management utility designed around privacy and convenient access to personal documents without server storage.",
-        playStore: "https://play.google.com/store/apps/developer?id=DatyalTech",
-        iconText: "🔒",
-        featuredSize: "normal",
-        previewImage: "assets/apps/document-vault/screen-01.png",
-        specs: "Strictly On-device Storage · Zero Remote Logs · Categorization"
+        specs: "High-precision Date Math · Offline Storage · Lightweight"
       }
     ];
 
-    // Helper for graceful fallback image UI rendering (SVG based preview card fallback)
+    // All published applications from developer account
+    const allApps = [
+      {
+        name: "Financial Calculators : India",
+        category: "Finance",
+        focus: "Indian Banking, Post Office, FD, RD & Loans",
+        url: "https://play.google.com/store/apps/details?id=datyaltech.android.financialcalculator&hl=en"
+      },
+      {
+        name: "Mutual Fund Calculator",
+        category: "Finance",
+        focus: "SIP, SWP, Lump sum wealth projections",
+        url: "https://play.google.com/store/apps/details?id=datyaltech.android.mutualfundcalculator"
+      },
+      {
+        name: "SIP Calculator",
+        category: "Finance",
+        focus: "Systematic Investment Planning calculations",
+        url: "https://play.google.com/store/apps/details?id=datyaltech.android.mutualfundcalculator"
+      },
+      {
+        name: "Village Interest Calculator / Pro",
+        category: "Finance",
+        focus: "Simple interest, local lending & repayment schedules",
+        url: "https://play.google.com/store/apps/dev?id=5198842058528925619&hl=en"
+      },
+      {
+        name: "Subscription Tracker & Manager (SubTrack)",
+        category: "Finance / Utility",
+        focus: "Recurring expenses & subscription cycle tracker",
+        url: "https://play.google.com/store/apps/details?id=datyaltech.android.subtrack&hl=en"
+      },
+      {
+        name: "Family Calendar",
+        category: "Productivity",
+        focus: "Shared household schedules and event routines",
+        url: "https://play.google.com/store/apps/details?id=datyaltech.android.familycal&hl=en"
+      },
+      {
+        name: "Multi View Browser",
+        category: "Utility",
+        focus: "Concurrent multi-window web views & testing",
+        url: "https://play.google.com/store/apps/details?id=datyaltech.android.multiviewbrowser&hl=en"
+      },
+      {
+        name: "Cement Calculator Builder",
+        category: "Construction",
+        focus: "Civil mix quantities, bags, plaster & slab volume",
+        url: "https://play.google.com/store/apps/details?id=datyaltech.android.cementcalculator&hl=en"
+      },
+      {
+        name: "Datyal Construction",
+        category: "Construction",
+        focus: "Estimation and structural planning tools",
+        url: "https://play.google.com/store/apps/dev?id=5198842058528925619&hl=en"
+      },
+      {
+        name: "PDF Tools Offline",
+        category: "Productivity",
+        focus: "Private on-device document utilities",
+        url: "https://play.google.com/store/apps/details?id=datyaltech.android.pdftoolsoffline"
+      },
+      {
+        name: "Age Calculator",
+        category: "Utility",
+        focus: "Precise date calculations and countdowns",
+        url: "https://play.google.com/store/apps/details?id=datyaltech.android.agecalculator"
+      },
+      {
+        name: "Datyal Furniture App",
+        category: "Commerce / Business",
+        focus: "Official catalog and orders companion app",
+        url: "https://play.google.com/store/apps/details?id=datyaltech.android.datyalfurniture"
+      }
+    ];
+
+    // Card Mockup Generator
     function renderAppMockupPreview(project) {
       return `
-        <div class="w-full h-36 bg-canvas/90 rounded-md border border-borderline p-3 flex flex-col justify-between select-none relative overflow-hidden group-hover:border-borderline-hover transition-colors">
+        <div class="w-full h-32 bg-canvas/90 rounded-md border border-borderline p-3 flex flex-col justify-between select-none relative overflow-hidden group-hover:border-borderline-hover transition-colors">
           <div class="flex justify-between items-center text-[10px] font-mono text-muted">
             <span class="flex items-center gap-1.5"><span class="w-1.5 h-1.5 rounded-full bg-accent"></span>${project.category}</span>
             <span>DATYALTECH</span>
@@ -1091,32 +1251,29 @@
           </div>
           <div class="flex justify-between items-center pt-1 border-t border-borderline/50 text-[10px]">
             <span class="text-accent font-mono text-[9px] uppercase tracking-wider">Android Native</span>
-            <span class="text-muted">Local / Offline</span>
+            <span class="text-muted">Local / Offline-First</span>
           </div>
         </div>
       `;
     }
 
-    // Render Asymmetric Grid with Filter support
+    // Render Grid with Category Filtering
     const projectsGrid = document.getElementById('projects-grid');
     function renderProjects(filter = 'all') {
       if (!projectsGrid) return;
       projectsGrid.innerHTML = '';
 
       const filtered = filter === 'all' 
-        ? projects 
-        : projects.filter(p => p.category.toLowerCase() === filter.toLowerCase());
+        ? featuredProjects 
+        : featuredProjects.filter(p => p.category.toLowerCase() === filter.toLowerCase());
 
       filtered.forEach((p) => {
         const isLarge = p.featuredSize === 'large';
         const card = document.createElement('div');
-        
-        // Asymmetric span for featured item on desktop
         card.className = `work-card-hover bg-surface border border-borderline rounded-xl p-5 sm:p-6 flex flex-col justify-between ${isLarge ? 'md:col-span-2' : ''}`;
         
         card.innerHTML = `
           <div>
-            <!-- Header bar inside card -->
             <div class="flex items-center justify-between gap-3 mb-4">
               <div class="flex items-center gap-2.5">
                 <div class="w-9 h-9 rounded-lg bg-surface-elevated border border-borderline flex items-center justify-center font-mono text-xs font-bold text-accent">
@@ -1132,18 +1289,15 @@
               </span>
             </div>
 
-            <!-- Description -->
             <p class="text-secondary text-xs sm:text-sm leading-relaxed mb-4">
               ${p.description}
             </p>
 
-            <!-- Realistic UI Mockup Card Fallback (loads fallback if PNG not yet present) -->
             <div class="mb-4">
               ${renderAppMockupPreview(p)}
             </div>
           </div>
 
-          <!-- Bottom Actions -->
           <div class="pt-3 border-t border-borderline/80 flex items-center justify-between">
             <button data-id="${p.id}" class="view-details-btn text-xs font-mono text-muted hover:text-primary transition-colors">
               Details &amp; Architecture
@@ -1157,7 +1311,6 @@
         projectsGrid.appendChild(card);
       });
 
-      // Attach Modal detail listeners
       document.querySelectorAll('.view-details-btn').forEach(btn => {
         btn.addEventListener('click', (e) => {
           const id = e.currentTarget.getAttribute('data-id');
@@ -1166,7 +1319,30 @@
       });
     }
 
-    // Modal Interaction Functions
+    // Populate Catalog Directory
+    const catalogBody = document.getElementById('app-directory-body');
+    function renderCatalog() {
+      if (!catalogBody) return;
+      catalogBody.innerHTML = '';
+      allApps.forEach(app => {
+        const row = document.createElement('tr');
+        row.className = 'hover:bg-surface-elevated/50 transition-colors';
+        row.innerHTML = `
+          <td class="py-3 px-4 font-medium text-primary">${app.name}</td>
+          <td class="py-3 px-4 hidden sm:table-cell font-mono text-[11px] text-accent">${app.category}</td>
+          <td class="py-3 px-4 hidden md:table-cell text-muted">${app.focus}</td>
+          <td class="py-3 px-4 text-right">
+            <a href="${app.url}" target="_blank" rel="noopener noreferrer" class="text-accent hover:underline font-mono inline-flex items-center gap-1">
+              <span>Google Play</span>
+              <span>↗</span>
+            </a>
+          </td>
+        `;
+        catalogBody.appendChild(row);
+      });
+    }
+
+    // Modal Interaction
     const modal = document.getElementById('project-modal');
     const modalClose = document.getElementById('modal-close');
     const modalCancel = document.getElementById('modal-cancel-btn');
@@ -1178,7 +1354,7 @@
     const modalIcon = document.getElementById('modal-icon');
 
     function openModal(projectId) {
-      const proj = projects.find(p => p.id === projectId);
+      const proj = featuredProjects.find(p => p.id === projectId);
       if (!proj || !modal) return;
       modalTitle.textContent = proj.name;
       modalCategory.textContent = proj.category;
@@ -1212,9 +1388,10 @@
       });
     });
 
-    // Initial Render
+    // Run on startup
     document.addEventListener('DOMContentLoaded', () => {
       renderProjects('all');
+      renderCatalog();
     });
   </script>
 </body>
